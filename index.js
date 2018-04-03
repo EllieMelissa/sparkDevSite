@@ -1,5 +1,6 @@
 var retina = window.devicePixelRatio,
 
+<<<<<<< HEAD
     // Math shorthands
     PI = Math.PI,
     sqrt = Math.sqrt,
@@ -19,6 +20,30 @@ var retina = window.devicePixelRatio,
 				* Fallback implementation.
 				*/
   var prev = _now();
+=======
+  // Math shorthands
+  PI = Math.PI,
+  sqrt = Math.sqrt,
+  round = Math.round,
+  random = Math.random,
+  cos = Math.cos,
+  sin = Math.sin,
+
+  // Local WindowAnimationTiming interface
+  rAF = window.requestAnimationFrame,
+  cAF = window.cancelAnimationFrame || window.cancelRequestAnimationFrame,
+  _now = Date.now || function() {
+    return new Date().getTime();
+  };
+
+// Local WindowAnimationTiming interface polyfill
+(function(w) {
+  /**
+   * Fallback implementation.
+   */
+  var prev = _now();
+
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
   function fallback(fn) {
     var curr = _now();
     var ms = Math.max(0, 16 - (curr - prev));
@@ -28,6 +53,7 @@ var retina = window.devicePixelRatio,
   }
 
   /**
+<<<<<<< HEAD
 				* Cancel.
 				*/
   var cancel = w.cancelAnimationFrame
@@ -39,11 +65,21 @@ var retina = window.devicePixelRatio,
   || fallback;
 
   cAF = function(id){
+=======
+   * Cancel.
+   */
+  var cancel = w.cancelAnimationFrame || w.webkitCancelAnimationFrame || w.clearTimeout;
+
+  rAF = w.requestAnimationFrame || w.webkitRequestAnimationFrame || fallback;
+
+  cAF = function(id) {
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
     cancel.call(w, id);
   };
 }(window));
 
 document.addEventListener("DOMContentLoaded", function() {
+<<<<<<< HEAD
   var speed = 100,
       duration = (1.0 / speed),
       confettiRibbonCount = 11,
@@ -58,6 +94,23 @@ document.addEventListener("DOMContentLoaded", function() {
         ["#2bebbc", "#05798a"],
         ["#ffd200", "#b06c00"]
       ];
+=======
+  var speed = 50,
+    duration = (1.0 / speed),
+    confettiRibbonCount = 11,
+    ribbonPaperCount = 1,
+    ribbonPaperDist = 8.0,
+    ribbonPaperThick = 8.0,
+    confettiPaperCount = 95,
+    DEG_TO_RAD = PI / 180,
+    RAD_TO_DEG = 180 / PI,
+    colors = [
+      ["#FFF", "#FAE164"],
+      ["#FFF", "#FF4621"],
+      ["#FFF", "#0066FF"],
+      ["#FFF", "#64E178"],
+    ];
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
 
   function Vector2(_x, _y) {
     this.x = _x, this.y = _y;
@@ -346,7 +399,11 @@ document.addEventListener("DOMContentLoaded", function() {
     var confettiRibbons = new Array();
     ConfettiRibbon.bounds = new Vector2(canvasWidth, canvasHeight);
     for (i = 0; i < confettiRibbonCount; i++) {
+<<<<<<< HEAD
       confettiRibbons[i] = new ConfettiRibbon(random() * canvasWidth, -random() * canvasHeight * 2, ribbonPaperDist, ribbonPaperThick, 45, 1, 0.05);
+=======
+      confettiRibbons[i] = new ConfettiRibbon(random() * canvasWidth, -random() * canvasHeight * 2, ribbonPaperCount, ribbonPaperDist, ribbonPaperThick, 45, 1, 0.05);
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
     }
     var confettiPapers = new Array();
     ConfettiPaper.bounds = new Vector2(canvasWidth, canvasHeight);
@@ -387,7 +444,11 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   var confetti = new confetti.Context('confetti');
   confetti.start();
+<<<<<<< HEAD
   window.addEventListener('resize', function(event){
+=======
+  window.addEventListener('resize', function(event) {
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
     confetti.resize();
   });
 });

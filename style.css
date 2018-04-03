@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .logo {
   display: block;
   margin-left: auto;
@@ -24,22 +25,153 @@ html,
 body {
   margin: 0;
   padding: 0;
+=======
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
   height: 100%;
   width: 100%;
 }
 
+<<<<<<< HEAD
 body {
   font-family: 'Avenir Next';
   font-size: 14px;
 }
 #confetti {
   position: absolute;
+=======
+#confetti{
+  position: fixed;
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
+<<<<<<< HEAD
   display: block;
   margin-left: auto;
   margin-right: auto;
   z-index: -1;
+=======
+  pointer-events:none;
+}
+
+img {
+	width: 100%;
+	margin: 20px 0;
+}
+
+}
+
+Rect1{
+  background: #FAFAFA;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+}
+
+Confetti{
+  opacity: 0.2;
+}
+
+
+
+rect2{
+  background: #FAFAFA;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+}
+
+rect3{
+border: 3px solid #979797;
+}
+Intro1{
+font-family: AvenirNext-Regular;
+font-size: 28px;
+color: #5C5C5C;
+}
+
+mobile{
+font-family: AvenirNext-Medium;
+font-size: 36px;
+color: #5C5C5C;
+}
+rect4{
+background: #FAFAFA;
+border: 3px solid #979797;
+}
+intro2{
+font-family: AvenirNext-Regular;
+font-size: 28px;
+color: #5C5C5C;
+}
+
+webdevlop{
+font-family: AvenirNext-Medium;
+font-size: 36px;
+color: #5C5C5C;
+}
+rect5{
+background: #FAFAFA;
+border: 3px solid #979797;
+}
+intro3{
+font-family: AvenirNext-Regular;
+font-size: 28px;
+color: #5C5C5C;
+}
+artifical{
+font-family: AvenirNext-Medium;
+font-size: 36px;
+color: #5C5C5C;
+}
+rect6{
+background: #FAFAFA;
+border: 3px solid #979797;
+}
+intro4{
+font-family: AvenirNext-Regular;
+font-size: 28px;
+color: #5C5C5C;
+}
+virtual{
+font-family: AvenirNext-Medium;
+font-size: 36px;
+color: #5C5C5C;
+}
+Rect7{
+background: #FAFAFA;
+border: 3px solid #979797;
+}
+intro5{
+font-family: AvenirNext-Regular;
+font-size: 28px;
+color: #5C5C5C;
+}
+webdesign{
+font-family: AvenirNext-Medium;
+font-size: 36px;
+color: #5C5C5C;
+}
+intro6{
+font-family: AvenirNext-DemiBold;
+font-size: 36px;
+color: #5C5C5C;
+}
+intro7{
+font-family: AvenirNext-UltraLight;
+font-size: 24px;
+color: #000000;
+}
+rect8{
+background: #8C8C8C;
+border: 1px solid #979797;
+}
+
+.sparkdev{
+font-family: AvenirNext-Medium;
+font-size: 36px;
+color: #DCDCDC;
+>>>>>>> 5277bf4a9e8315a974ed37ae8e30abd71c26e5a4
 }
