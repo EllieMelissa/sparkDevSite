@@ -1,4 +1,26 @@
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  padding-top: 14em;
+}
 
+.tagline {
+  font-family: 'Avenir Next';
+  font-size: 28px;
+  color: #5C5C5C;
+  text-align: center;
+  padding-top: 1em;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("AvenirNext-Regular.ttf");
+}
+
+
+<<<<<<< HEAD
 
 .div1 {
 
@@ -119,3 +141,28 @@
           margin-right: auto;
           z-index: -1;
         }
+=======
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Avenir Next';
+  font-size: 14px;
+}
+#confetti {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+>>>>>>> 718662965c3e97a4b42f554c4b2ed128e0a738e7
