@@ -1,132 +1,121 @@
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background: #fafafa;
-  height: 100%;
-  width: 100%;
-}
 
-#confetti{
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  pointer-events:none;
-}
+.div1 {
 
-img {
-	width: 100%;
-	margin: 20px 0;
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top: 510px;
+  left:100px;
 }
+  .divText1{
+  position: relative;
+  top:300px;
+  left:500px;
+}
+  .div2 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:507px;
+  left:200px;
+  }
+  .divText2{
+  position: relative;
+  top:410px;
+  left:500px;
+}
+  .div3 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:505px;
+  left:100px;
+    }
+  .divText3{
+  position: relative;
+  top:510px;
+  left:500px;
+  }
+  .div4 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:503px;
+  left:200px;
+      }
+  .divText4{
+  position: relative;
+  top:610px;
+  left:500px;
+    }
+  .div5 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:500px;
+  left:100px;
+          }
+  .divText5{
+  position: relative;
+  top:710px;
+  left:500px;
+        }
 
-}
-
-Rect1{
-  background: #FAFAFA;
-  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
-}
-
-Confetti{
-  opacity: 0.2;
-}
 
 
+        .logo {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50em;
+          padding-top: 14em;
+        }
 
-rect2{
-  background: #FAFAFA;
-  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
-}
+        .tagline {
+          font-family: 'Avenir Next';
+          font-size: 28px;
+          color: #5C5C5C;
+          text-align: center;
+          padding-top: 1em;
+        }
 
-rect3{
-border: 3px solid #979797;
-}
-Intro1{
-font-family: AvenirNext-Regular;
-font-size: 28px;
-color: #5C5C5C;
-}
+        @font-face {
+          font-family: 'Avenir Next';
+          src: url("AvenirNext-Regular.ttf");
+        }
 
-mobile{
-font-family: AvenirNext-Medium;
-font-size: 36px;
-color: #5C5C5C;
-}
-rect4{
-background: #FAFAFA;
-border: 3px solid #979797;
-}
-intro2{
-font-family: AvenirNext-Regular;
-font-size: 28px;
-color: #5C5C5C;
-}
 
-webdevlop{
-font-family: AvenirNext-Medium;
-font-size: 36px;
-color: #5C5C5C;
-}
-rect5{
-background: #FAFAFA;
-border: 3px solid #979797;
-}
-intro3{
-font-family: AvenirNext-Regular;
-font-size: 28px;
-color: #5C5C5C;
-}
-artifical{
-font-family: AvenirNext-Medium;
-font-size: 36px;
-color: #5C5C5C;
-}
-rect6{
-background: #FAFAFA;
-border: 3px solid #979797;
-}
-intro4{
-font-family: AvenirNext-Regular;
-font-size: 28px;
-color: #5C5C5C;
-}
-virtual{
-font-family: AvenirNext-Medium;
-font-size: 36px;
-color: #5C5C5C;
-}
-Rect7{
-background: #FAFAFA;
-border: 3px solid #979797;
-}
-intro5{
-font-family: AvenirNext-Regular;
-font-size: 28px;
-color: #5C5C5C;
-}
-webdesign{
-font-family: AvenirNext-Medium;
-font-size: 36px;
-color: #5C5C5C;
-}
-intro6{
-font-family: AvenirNext-DemiBold;
-font-size: 36px;
-color: #5C5C5C;
-}
-intro7{
-font-family: AvenirNext-UltraLight;
-font-size: 24px;
-color: #000000;
-}
-rect8{
-background: #8C8C8C;
-border: 1px solid #979797;
-}
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          width: 100%;
+        }
 
-.sparkdev{
-font-family: AvenirNext-Medium;
-font-size: 36px;
-color: #DCDCDC;
-}
+        body {
+          font-family: 'Avenir Next';
+          font-size: 14px;
+        }
+        #confetti {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          z-index: -1;
+        }
