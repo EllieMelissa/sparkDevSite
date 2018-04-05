@@ -20,6 +20,128 @@
 }
 
 
+<<<<<<< HEAD
+
+.div1 {
+
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top: 510px;
+  left:100px;
+}
+  .divText1{
+  position: relative;
+  top:300px;
+  left:500px;
+}
+  .div2 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:507px;
+  left:200px;
+  }
+  .divText2{
+  position: relative;
+  top:410px;
+  left:500px;
+}
+  .div3 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:505px;
+  left:100px;
+    }
+  .divText3{
+  position: relative;
+  top:510px;
+  left:500px;
+  }
+  .div4 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:503px;
+  left:200px;
+      }
+  .divText4{
+  position: relative;
+  top:610px;
+  left:500px;
+    }
+  .div5 {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 1px solid grey;
+  position: relative;
+  top:500px;
+  left:100px;
+          }
+  .divText5{
+  position: relative;
+  top:710px;
+  left:500px;
+        }
+
+
+
+        .logo {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50em;
+          padding-top: 14em;
+        }
+
+        .tagline {
+          font-family: 'Avenir Next';
+          font-size: 28px;
+          color: #5C5C5C;
+          text-align: center;
+          padding-top: 1em;
+        }
+
+        @font-face {
+          font-family: 'Avenir Next';
+          src: url("AvenirNext-Regular.ttf");
+        }
+
+
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          width: 100%;
+        }
+
+        body {
+          font-family: 'Avenir Next';
+          font-size: 14px;
+        }
+        #confetti {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          z-index: -1;
+        }
+=======
 html,
 body {
   margin: 0;
@@ -43,6 +165,7 @@ body {
   margin-right: auto;
   z-index: -1;
 }
+<<<<<<< HEAD
 .h1{
     /* What is ..: */
 font-family: AvenirNext-DemiBold;
@@ -127,3 +250,6 @@ border: 3px solid #979797;
 background: #FAFAFA;
 border: 3px solid #979797;
 }
+=======
+>>>>>>> 718662965c3e97a4b42f554c4b2ed128e0a738e7
+>>>>>>> 52bfb02fa2f8a6089b66447874b80c787081e045
