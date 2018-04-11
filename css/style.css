@@ -19,7 +19,7 @@ body{
     /* margin-left: auto; */
     /* margin-right: auto; */
     /* z-index: -1; */
-} 
+}
 
 /* Logo section */
 .logo {
@@ -39,8 +39,8 @@ body{
 .header-container h2{
   text-align: center;
   line-height: 5;
-  color: rgba(0,0,0,0.6); 
-  font-weight: 400; 
+  color: rgba(0,0,0,0.6);
+  font-weight: 400;
 }
 
 .header-container span {
@@ -103,7 +103,7 @@ body{
 }
   .artificial-intellegence-container{
    margin-top: 220px;
-   
+
   }
  .rec2{
   width: 400px;
@@ -175,7 +175,7 @@ body{
   height: 400px;
   margin-top: 200px;
   margin-left: 160px;
-  /*border: 1px solid #000; */ 
+  /*border: 1px solid #000; */
   background: #FAFAFA;
   position: sticky;
   z-index: 4;
@@ -225,20 +225,22 @@ body{
   word-wrap: break-word;
   overflow: hidden;
   white-space: wrap;
-  
+
 
 }
 
-.footer-container .footer{ 
-  background-color: C3C2C3;
+.footer-container .footer{
+  background-color: #C3C2C3;
   color: #EEEDED;
   text-align: center;
   position: absolute;
   height: 40px;
   width: 100%;
+  top: 130em;
+  padding-top: .5em;
 
 }
-/* 
+/*
 .tagline {
   font-family: 'Avenir Next';
   font-size: 28px;
